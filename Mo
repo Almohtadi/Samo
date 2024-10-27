@@ -1,0 +1,94 @@
+سأقوم بإنشاء صفحة ويب إسلامية بسيطة تحتوي على العناصر الأساسية التي يمكن تعديلها لاحقاً. سأضيف قسماً يعرض معلومات عنك، قسم للمقالات أو الخواطر الدينية، وآخر للأدعية. كما سأستخدم ألواناً هادئة وتصميماً بسيطاً مع بعض الزخارف الإسلامية. إليك الكود:
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة إسلامية</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+            text-align: center;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2E8B57;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #2E8B57;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h1, h2 {
+            font-family: 'Amiri', serif;
+        }
+        .dua {
+            font-style: italic;
+            color: #006400;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>مرحباً بكم في صفحتي الإسلامية</h1>
+    </header>
+
+    <section>
+        <h2>عنّي</h2>
+        <p>هذه الصفحة تقدم محتوى إسلامياً متنوعاً، بما في ذلك مقالات وخواطر عن الدين الإسلامي، بالإضافة إلى أدعية ومصادر أخرى. أتمنى أن تجدوا هنا ما يفيدكم في مسيرتكم الإيمانية.</p>
+    </section>
+
+    <section>
+        <h2>مقالات دينية</h2>
+        <p>هنا يمكن إضافة مقالات عن الإسلام، مثل أهمية الصلاة، الصوم، الحج، أو أي موضوعات دينية أخرى تهم الزائرين.</p>
+    </section>
+
+    <section>
+        <h2>أدعية</h2>
+        <p class="dua">"اللهم إني أسألك العفو والعافية في الدنيا والآخرة"</p>
+        <p class="dua">"ربنا آتنا في الدنيا حسنة وفي الآخرة حسنة وقنا عذاب النار"</p>
+    </section>
+
+    <footer>
+        <p>© 2024 - صفحتي الإسلامية - للتواصل عبر البريد الإلكتروني: youremail@example.com</p>
+    </footer>
+
+</body>
+</html>
+
+عناصر الصفحة:
+
+1. الهيدر (Header): يرحب بالزوار ويعطي عنواناً للصفحة.
+
+
+2. قسم "عنّي": يعرض نبذة عن هدف الصفحة.
+
+
+3. قسم "مقالات دينية": يمكن إضافة مقالات أو خواطر دينية هنا.
+
+
+4. قسم "أدعية": بعض الأدعية الإسلامية الشهيرة.
+
+
+5. الفوتر (Footer): يحتوي على معلومات الاتصال.
+
+
+
+يمكن تعديل النصوص والأقسام بحسب رغبتك.
+
